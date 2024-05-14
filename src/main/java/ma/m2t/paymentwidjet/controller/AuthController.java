@@ -1,6 +1,7 @@
 package ma.m2t.paymentwidjet.controller;
 
 
+import jakarta.validation.Valid;
 import ma.m2t.paymentwidjet.models.ERole;
 import ma.m2t.paymentwidjet.models.Role;
 import ma.m2t.paymentwidjet.models.User;
@@ -25,7 +26,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-import javax.validation.Valid;
+
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
